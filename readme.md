@@ -1,21 +1,29 @@
-# Lumen PHP Framework
+# Edfa3ly task
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+i choose task number one which is about  many different couriers what have their work flow but we want consumer 
+no to handel ever courier work flow and want to access only two function
+<br/> 
+1- create shipment <br/>
+2- track shipment
 
-## Official Documentation
 
-Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+#solution
 
-## License
+make an interface that have the two methods and make w wrapper class for 
+every shipment courier which implement the mentioned interface,
+every wrapper handel every courier work flow,
+when call the wrapper class we only access the two method and every one of the
+handel the work flow
 
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+
+#running and installation
+
+i use Lumen micro framework  
+just run command <br/>
+php -S localhost:8000 -t public <hr/>
+
+Classes inside app\Courier
