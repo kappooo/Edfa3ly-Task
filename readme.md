@@ -26,4 +26,8 @@ i use Lumen micro framework
 just run command <br/>
 php -S localhost:8000 -t public <hr/>
 
-Classes inside app\Courier
+
+
+use can call class from HomeControllers 
+from directory App\Http\Controllers. <br/>
+Classes inside app\Courier <br/>
